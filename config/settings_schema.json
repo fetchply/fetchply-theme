@@ -3,9 +3,7 @@
     "name": "theme_info",
     "theme_name": "Fetchply Theme",
     "theme_version": "1.0.0",
-    "theme_author": "Fetchply",
-    "theme_documentation_url": "",
-    "theme_support_url": ""
+    "theme_author": "Fetchply"
   },
   {
     "name": "t:settings_schema.colors.name",

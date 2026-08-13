@@ -20,6 +20,85 @@
   "default": "默认",
   "none": "无",
   "settings_schema": {
+    "colors": {
+      "name": "颜色设置",
+      "secondary": "辅助",
+      "tertiary": "次要",
+      "accent": "强调",
+      "settings": {
+        "typography": {
+          "label": "排版"
+        },
+        "text": {
+          "text": "文本",
+          "secondary_text": "辅助文本",
+          "secondary_text_info": "选择与主文本相近的颜色。"
+        },
+        "background": {
+          "header": "背景",
+          "label": "背景",
+          "gradient": "背景渐变",
+          "gradient_info": "渐变背景将尽可能替换主背景。",
+          "secondary_background": "辅助背景",
+          "secondary_background_info": "选择与主背景相近的颜色。"
+        },
+        "button": {
+          "header": "按钮",
+          "button_background": "实心按钮背景",
+          "button_label": "实心按钮文字",
+          "button_border": "实心按钮边框",
+          "secondary_button_label": "轮廓按钮"
+        },
+        "additional": {
+          "header": "附加",
+          "accent_color": "强调颜色",
+          "line_border": "线条边框",
+          "overlay": "覆盖"
+        },
+        "product": {
+          "header": "产品",
+          "pr_text": "产品文本",
+          "price": "产品价格",
+          "sale_price": "产品特价"
+        },
+        "input": {
+          "header": "输入",
+          "input_primary": "主要输入框",
+          "input_secondary": "辅助输入框"
+        },
+        "general": {
+          "header": "通用",
+          "color_scheme": "配色方案",
+          "background_image": "背景图片",
+          "background_image_info": "建议尺寸：1920x1500像素",
+          "color_focus": "键盘焦点"
+        },
+        "modal": {
+          "header": "模态框/抽屉/浮层",
+          "color_scheme_dialog": "配色方案",
+          "color_scheme_dialog_info": "选择模态框/抽屉/浮层的配色方案。"
+        },
+        "general_product": {
+          "header": "产品",
+          "badge_sale": "促销徽章",
+          "badge_new": "新品徽章",
+          "badge_soldout": "售罄徽章",
+          "badge_preorder": "预购徽章",
+          "badge_custom": "自定义徽章"
+        },
+        "general_notice": {
+          "header": "通知",
+          "color_success": "成功",
+          "color_warning": "警告",
+          "color_error": "错误"
+        },
+        "tooltip": {
+          "header": "提示框",
+          "tooltip_bg": "背景",
+          "tooltip_text": "文本"
+        }
+      }
+    },
     "global": {
       "settings": {
         "header__border": {
@@ -340,11 +419,11 @@
           },
           "use_url_collection_vendor": {
             "label": "供应商使用收藏链接",
-            "info": "将供应商链接替换为收藏链接。需要存在一个与产品供应商同名的收藏。 [了解更多](https://support.fetchply.co/articles/how-to-use-the-collection-link-on-vendortype)"
+            "info": "将供应商链接替换为收藏链接。需要存在一个与产品供应商同名的收藏。"
           },
           "use_url_collection_type": {
             "label": "类型使用收藏链接",
-            "info": "将类型链接替换为收藏链接。需要存在一个与产品类型同名的收藏。 [了解更多](https://support.fetchply.co/articles/how-to-use-the-collection-link-on-vendortype)"
+            "info": "将类型链接替换为收藏链接。需要存在一个与产品类型同名的收藏。"
           }
         }
       }
@@ -817,7 +896,7 @@
           "info": "通过访客货币显示价格来提升销售！当客户访问您的商店时，您的商店会根据其 IP 地址的地理位置选择要使用的货币。您商店前端和结账时的价格会立即转换为该货币。如果客户所在地使用您的商店不支持的货币，则会使用商店的货币。例如，您的商店货币是美元，您接受美元、欧元和日元。当来自巴西的客户访问您的商店时，他们会看到美元（您商店的货币）的价格，因为您不接受巴西雷亚尔付款。"
         },
         "paragraph2": "尽管价格以不同货币显示，订单仍将以您商店的货币处理。",
-        "paragraph3": "要在您的在线商店提供多种货币，您必须首先 [编辑您商店的货币格式](https:\/\/support.fetchply.co\/articles\/kalles5-currency-format)。",
+        "paragraph3": "要在您的在线商店提供多种货币，您必须首先 [编辑您商店的货币格式](https:\/\/help.shopify.com\/en\/manual\/international\/pricing\/currency-formatting)。",
         "supported_currencies": {
           "label": "支持的货币",
           "info": "使用国家/地区的 ISO [货币代码](http:\/\/www.xe.com\/iso4217.php)。规则：货币代码 - 货币名称。每条规则必须单独一行。"
@@ -2528,7 +2607,7 @@
         },
         "acc": {
           "label": "通过 GraphQL API 获取 Instagram 访问令牌",
-          "info": "[如何通过 GraphQL API 获取您的 Instagram 访问令牌。](https:\/\/support.fetchply.co\/articles\/how-to-get-instagram-access-token)"
+          "info": "如何通过 GraphQL API 获取您的 Instagram 访问令牌。"
         },
         "limit": {
           "label": "最多显示照片数量"

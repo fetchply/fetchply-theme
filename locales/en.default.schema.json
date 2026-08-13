@@ -389,11 +389,11 @@
           },
           "use_url_collection_vendor": {
             "label": "Use collection link on vendor",
-            "info": "Replace vendor link to collection link. Requires exist a collection has the name same as the vendor of the product. [Learn more](https://support.fetchply.co/articles/how-to-use-the-collection-link-on-vendortype)"
+            "info": "Replace vendor link to collection link. Requires exist a collection has the name same as the vendor of the product."
           },
           "use_url_collection_type": {
             "label": "Use collection link on type",
-            "info": "Replace type link to collection link. Requires exist a collection has the name same as the type of the product. [Learn more](https://support.fetchply.co/articles/how-to-use-the-collection-link-on-vendortype)"
+            "info": "Replace type link to collection link. Requires exist a collection has the name same as the type of the product."
           }
         }
       }
@@ -600,7 +600,7 @@
           "info": " Boost up your sales by showing your prices in the Visitor's Currency! When a customer goes to your store, your store chooses the currency to use based on the geolocation of their IP address. The prices in your storefront and checkout convert immediately to that currency. If a customer's location uses a currency that isn't supported by your store, then the store's currency is used. For example, your store currency is USD and you accept USD, EUR, and YEN. When a customer from Brazil visits your store, they see prices in USD (your store's currency) because you don't accept payments in BRL."
         },
         "paragraph2": "Even though prices are displayed in different currencies, orders will still be processed in your store's currency.",
-        "paragraph3": "To offer multiple currencies on your online store, you must first [edit your store's currency formatting](https:\/\/support.fetchply.co\/articles\/kalles5-currency-format).",
+        "paragraph3": "To offer multiple currencies on your online store, you must first [edit your store's currency formatting](https:\/\/help.shopify.com\/en\/manual\/international\/pricing\/currency-formatting).",
         "supported_currencies": {
           "label": "Supported currencies",
           "info": "Use the country's ISO [currency code](http:\/\/www.xe.com\/iso4217.php). Rule: Currency code - Currency Name. Each rule must be in its own line."
@@ -2610,7 +2610,7 @@
         },
         "acc": {
           "label": "Instagram Access Token via GraphQL API",
-          "info": "[How to get your Instagram Access Token via GraphQL API.](https:\/\/support.fetchply.co\/articles\/how-to-get-instagram-access-token)"
+          "info": "How to get your Instagram Access Token via GraphQL API."
         },
         "limit": {
           "label": "Maximum photos to show"
