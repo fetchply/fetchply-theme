@@ -20,105 +20,6 @@
   "default": "默认",
   "none": "无",
   "settings_schema": {
-    "theme_active": {
-      "name": "主题激活",
-      "settings": {
-        "intro": {
-          "content": "与 Ecomus 一起开启您的商业旅程"
-        },
-        "purchase_code": {
-          "label": "购买代码"
-        },
-        "purchase_code_help": {
-          "content": "[我的购买代码在哪里](https://support.the4.co/articles/where-is-my-purchase-code#how-to-find-your-purchase-code)"
-        },
-        "import_demo_help": {
-          "content": "[如何一键导入演示](https://support.the4.co/articles/import-demo#1-one-click-demo-import-with-ecomrise)"
-        },
-        "buy_license": {
-          "content": "[购买新许可证](https:\/\/1.envato.market\/Y9mvDR)"
-        },
-        "ecomposer": {
-          "content": "[免费获取 EComposer Page Builder（仅限 The4 用户）](https://ecomposer.app/referral?ref=The4)"
-        },
-        "update_help": {
-          "content": "[如何在 3 分钟内更新](https://support.the4.co/articles/update-the-theme)"
-        },
-        "workflow_info": {
-          "content": "使用 Ecomus，探索您开始、运营和发展业务所需的所有工具和服务。我们知道 Ecomus 将通过改进您的工作流程使您的生活更轻松。借助 Ecomus 为您提供的工具，您将实现真正的设计潜力，而无需任何编码知识。如果您能帮助我们改进主题、安装过程或文档，我们将不胜感激。"
-        }
-      }
-    },
-    "dear_customers": {
-      "name": "尊敬的客户！",
-      "settings": {
-        "intro": {
-          "content": "[The4 Studio](https://the4.co/) 经验丰富的团队设计令人印象深刻的 Shopify 主题，易于安装和定制。通过我们专门的支持，快速启动您的网站。"
-        },
-        "documentation": {
-          "content": "如需安装帮助，请查看我们的 [文档](https://support.the4.co/collections/ecomus-2) 或提交 [支持工单](https://support.the4.co/login)。我们喜欢改进主题，因此请分享任何技术问题或建议。感谢您的惠顾！"
-        },
-        "offers": {
-          "content": "享受我们不断壮大的合作伙伴网络的独家优惠！在此处查看 [优惠列表](https://support.the4.co/user/earnings)（需要登录我们的支持系统）。"
-        },
-        "contact": {
-          "content": "以实惠的价格获得专家定制开发，[联系 The4](https://the4.co/pages/contact-us)。"
-        }
-      }
-    },
-    "recommend_apps": {
-      "name": "推荐应用",
-      "settings": {
-        "page_builder_header": {
-          "content": "页面构建器"
-        },
-        "ecomposer": {
-          "content": "[EComposer - The4 用户可免费使用 6 个月 ](https://apps.shopify.com/ecomposer?utm_source=the4-customize&utm_medium=recommend)[(了解更多)](https://ecomposer.io/pages/theme-partners )"
-        },
-        "seo_header": {
-          "content": "SEO"
-        },
-        "seo_apps": {
-          "content": "[AVADA SEO](https://apps.shopify.com/avada-seo-suite?utm_source=The4&utm_medium=inapp&utm_campaign=partnership)，[SearchPie](https://partners.secomapp.com/apps/searchpie/EcomElite)，[SEO Ant](https://share.channelwill.com/app/1165e92fbeba994PdM)，[TinyIMG](https://tiny-img.com/?ref=henry)"
-        },
-        "reviews_header": {
-          "content": "产品评论"
-        },
-        "reviews_apps": {
-          "content": "[Ryviu](https://www.ryviu.com/?rel=3in5hrqs)，[Loox](https://loox.io/app/The4)，[Growave](https://www.growave.io/r?ref=henry_pham)，[LAI](https://apps.shopify.com/lai-reviews)，[Stamped.io](https://get.stamped.io/m8cdram862h3)，[Trustoo](https://share.channelwill.com/app/2165e92fbebcb27Ava)，[Fera](https://www.fera.ai?r=ecomelite)"
-        },
-        "marketing_header": {
-          "content": "营销与追加销售"
-        },
-        "marketing_apps": {
-          "content": "[EcomRise](https://apps.shopify.com/ecomrise?utm_source=the4-ecomus&utm_medium=intheme&utm_content=recommend-apps)，[Vitals](https://vitals.co/shopify/10250920)，[Selleasy](https://platform.shoffi.app/r/rl_51tG2Zjt)，[Candy Rack](https://app.partnerjam.com/install?key=04a19cd7-9ab0-4637-adf0-8bd14e743c80)，[Kaching Bundles ](https://apps.shopify.com/bundle-deals?utm_medium=theme-setting&utm_source=the4-intheme&utm_content=recommend-app)"
-        },
-        "ux_header": {
-          "content": "用户体验、用户界面"
-        },
-        "ux_apps": {
-          "content": "[Boost Commerce](https://boostcommerce.net?utm_source=henry64)，[SoBooster](https://usf.sobooster.com/affiliate?refcode=48865bfb-10b0-46cc-9239-6af710fb69a7&targeturl=https%3a%2f%2fapps.shopify.com%2fultimate-search-and-filter-1)，[Weglot](https://weglot.com/?fp_ref=khang-25)，[HeyCarson](https://heycarson.com/ambassadors/?ref=the4studio)"
-        },
-        "orders_header": {
-          "content": "管理订单"
-        },
-        "orders_apps": {
-          "content": "[Parcel Pannel](https://parcelpanel.com?ref=79QXxUbs)，[Dropshipman](https://api-affiliate.dropshipman.com/?ref=dc45f331)，[Track123 ](https://platform.shoffi.app/r/rl_97IoZnVP)，[Appstle Subscription](https://subscription-admin.appstle.com/affiliates?fpr=henry46)"
-        },
-        "affiliate_header": {
-          "content": "联盟与忠诚度"
-        },
-        "affiliate_apps": {
-          "content": "[UpPromote](https://partners.secomapp.com/apps/affiliate/EcomElite)，[Referral candy](https://my.referralcandy.com/signup?utm_source=first_promoter&utm_medium=first_promoter&utm_campaign=affiliate_program&ref=henry84)，[BON Loyalty](https://partners.smartifyapps.com/apps/bon_loyalty/the4)，[Growave](https://www.growave.io/r?ref=henry_pham)"
-        },
-        "currency_header": {
-          "content": "货币与翻译"
-        },
-        "currency_apps": {
-          "content": "[Transcy：本地化方案](https://bit.ly/4ilgzmw)，[Langwill：语言翻译](https://partner.channelwill.com/oou3vu)"
-        }
-      }
-    },
     "colors": {
       "name": "颜色设置",
       "secondary": "辅助",
@@ -489,7 +390,7 @@
             "label": "心愿单模式",
             "options__1": "禁用",
             "options__2": "启用本地心愿单",
-            "options__3": "启用账户心愿单 [免费安装 EcomRise](https:\/\/apps.shopify.com\/ecomrise?utm_source=ecomus-intheme&utm_medium=wishlist&compare)"
+            "options__3": "启用账户心愿单 （需要 EcomRise 应用）"
           },
           "wis_atc_added": {
             "label": "点击添加心愿单后的操作：",
@@ -504,7 +405,7 @@
             "info": "最大比较产品数：6",
             "options__1": "禁用",
             "options__2": "启用本地比较",
-            "options__3": "启用账户比较 [免费安装 EcomRise](https:\/\/apps.shopify.com\/ecomrise?utm_source=ecomus-intheme&utm_medium=compare&compare)"
+            "options__3": "启用账户比较 （需要 EcomRise 应用）"
           },
           "enable_compare_popup": {
             "label": "启用比较弹窗",
@@ -518,11 +419,11 @@
           },
           "use_url_collection_vendor": {
             "label": "供应商使用收藏链接",
-            "info": "将供应商链接替换为收藏链接。需要存在一个与产品供应商同名的收藏。 [了解更多](https://support.the4.co/articles/how-to-use-the-collection-link-on-vendortype)"
+            "info": "将供应商链接替换为收藏链接。需要存在一个与产品供应商同名的收藏。"
           },
           "use_url_collection_type": {
             "label": "类型使用收藏链接",
-            "info": "将类型链接替换为收藏链接。需要存在一个与产品类型同名的收藏。 [了解更多](https://support.the4.co/articles/how-to-use-the-collection-link-on-vendortype)"
+            "info": "将类型链接替换为收藏链接。需要存在一个与产品类型同名的收藏。"
           }
         }
       }
@@ -972,7 +873,7 @@
             "label": "Shopify"
           },
           "options__2": {
-            "label": "The4"
+            "label": "Fetchply"
           }
         },
         "flag_currency": {
@@ -988,14 +889,14 @@
           }
         },
         "header_currency_by_t4s": {
-          "content": "The4 提供的多种货币"
+          "content": "Fetchply 提供的多种货币"
         },
         "auto_currency": {
           "label": "启用客户地理位置",
           "info": "通过访客货币显示价格来提升销售！当客户访问您的商店时，您的商店会根据其 IP 地址的地理位置选择要使用的货币。您商店前端和结账时的价格会立即转换为该货币。如果客户所在地使用您的商店不支持的货币，则会使用商店的货币。例如，您的商店货币是美元，您接受美元、欧元和日元。当来自巴西的客户访问您的商店时，他们会看到美元（您商店的货币）的价格，因为您不接受巴西雷亚尔付款。"
         },
         "paragraph2": "尽管价格以不同货币显示，订单仍将以您商店的货币处理。",
-        "paragraph3": "要在您的在线商店提供多种货币，您必须首先 [编辑您商店的货币格式](https:\/\/support.the4.co\/articles\/kalles5-currency-format)。",
+        "paragraph3": "要在您的在线商店提供多种货币，您必须首先 [编辑您商店的货币格式](https:\/\/help.shopify.com\/en\/manual\/international\/pricing\/currency-formatting)。",
         "supported_currencies": {
           "label": "支持的货币",
           "info": "使用国家/地区的 ISO [货币代码](http:\/\/www.xe.com\/iso4217.php)。规则：货币代码 - 货币名称。每条规则必须单独一行。"
@@ -1057,10 +958,6 @@
           "new": "新客户弹窗"
         }
       }
-    },
-    "import_demo": {
-      "name": "导入演示",
-      "content": "[安装 EcomRise (免费)](https:\/\/apps.shopify.com\/ecomrise?utm_source=the4-ecomus&utm_medium=intheme&utm_content=import-demo) 以快速导入新演示并更新最新主题版本。此外，还可访问所有销售提升功能。 [立即安装应用。](https:\/\/apps.shopify.com\/ecomrise?utm_source=the4-ecomus&utm_medium=intheme&utm_content=import-demo)"
     }
   },
   "sections": {
@@ -2710,7 +2607,7 @@
         },
         "acc": {
           "label": "通过 GraphQL API 获取 Instagram 访问令牌",
-          "info": "[如何通过 GraphQL API 获取您的 Instagram 访问令牌。](https:\/\/support.the4.co\/articles\/how-to-get-instagram-access-token)"
+          "info": "如何通过 GraphQL API 获取您的 Instagram 访问令牌。"
         },
         "limit": {
           "label": "最多显示照片数量"
@@ -5873,7 +5770,7 @@
           "settings": {
             "text": {
               "label": "文本",
-              "info": "如果您想突出显示文本，请在文本中添加 '[]' 标签。例如：[Ecomus]"
+              "info": "如果您想突出显示文本，请在文本中添加 '[]' 标签。例如：[Fetchply]"
             },
             "icon_svg": {
               "label": "选择图标"

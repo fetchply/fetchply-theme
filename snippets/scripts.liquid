@@ -1,4 +1,3 @@
-{% assign dW5zZW4 = 'ZWNvbXVz' %}
 <script>
   window.themeHDN = {
     settings: {
@@ -23,10 +22,6 @@
     document.addEventListener('DOMContentLoaded', () => {
       document.querySelector('.shopify-policy__body .rte').classList.add('hdt-rte');
     });
-  {%- endif -%}
-  {%- if request.design_mode -%}
-    {%- assign cHVyY2hh = 'cHVyY2hhc2VfY29kZQ==' | base64_url_safe_decode -%}
-    var VGhlbWVOYW1lVDQ = {{ dW5zZW4 | json }}, cHVyY2hh = {{ settings[cHVyY2hh] | default: '' | base64_encode | json }}, U2hvcE1lb1Q0 = {{ shop.email | default: 'no_email' | base64_encode | json }};
   {%- endif -%}
   if (themeHDN.settings.revealInView && matchMedia("motion")) {
     document.querySelector('html').classList.add('hdt-reveal-in-view')
