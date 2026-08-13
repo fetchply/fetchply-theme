@@ -1,139 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Ecomus",
-    "theme_version": "2.3.1",
-    "theme_author": "The4",
-    "theme_documentation_url": "https:\/\/support.the4.co\/collections\/ecomus-2",
-    "theme_support_url": "https:\/\/support.the4.co\/"
-  },
-  {
-    "name": "t:settings_schema.theme_active.name",
-    "settings": [ 
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.theme_active.settings.intro.content"
-      },
-      {
-        "type": "text",
-        "id": "purchase_code",
-        "label": "t:settings_schema.theme_active.settings.purchase_code.label"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.theme_active.settings.purchase_code_help.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.theme_active.settings.import_demo_help.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.theme_active.settings.buy_license.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.theme_active.settings.ecomposer.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.theme_active.settings.update_help.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.theme_active.settings.workflow_info.content"
-      }
-    ]
-  },
-  {
-    "name": "t:settings_schema.dear_customers.name",
-    "settings": [
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.dear_customers.settings.intro.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.dear_customers.settings.documentation.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.dear_customers.settings.offers.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.dear_customers.settings.contact.content"
-      }
-    ]
-  },
-  {
-    "name": "t:settings_schema.recommend_apps.name",
-    "settings": [
-      {
-        "type": "header",
-        "content": "t:settings_schema.recommend_apps.settings.page_builder_header.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.recommend_apps.settings.ecomposer.content"
-      },
-      {
-        "type": "header",
-        "content": "t:settings_schema.recommend_apps.settings.seo_header.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.recommend_apps.settings.seo_apps.content"
-      },
-      {
-        "type": "header",
-        "content": "t:settings_schema.recommend_apps.settings.reviews_header.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.recommend_apps.settings.reviews_apps.content"
-      },
-      {
-        "type": "header",
-        "content": "t:settings_schema.recommend_apps.settings.marketing_header.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.recommend_apps.settings.marketing_apps.content"
-      },
-      {
-        "type": "header",
-        "content": "t:settings_schema.recommend_apps.settings.ux_header.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.recommend_apps.settings.ux_apps.content"
-      },
-      {
-        "type": "header",
-        "content": "t:settings_schema.recommend_apps.settings.orders_header.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.recommend_apps.settings.orders_apps.content"
-      },
-      {
-        "type": "header",
-        "content": "t:settings_schema.recommend_apps.settings.affiliate_header.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.recommend_apps.settings.affiliate_apps.content"
-      },
-      {
-        "type": "header",
-        "content": "t:settings_schema.recommend_apps.settings.currency_header.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.recommend_apps.settings.currency_apps.content"
-      }
-    ]
+    "theme_name": "Fetchply Theme",
+    "theme_version": "1.0.0",
+    "theme_author": "Fetchply",
+    "theme_documentation_url": "",
+    "theme_support_url": ""
   },
   {
     "name": "t:settings_schema.colors.name",
@@ -2107,15 +1979,6 @@
         "id": "customer_account_menu",
         "label": "Customer account menu",
         "default": "customer-account-main-menu"
-      }
-    ]
-  },
-  {
-    "name": "t:settings_schema.import_demo.name",
-    "settings": [
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.import_demo.content"
       }
     ]
   }

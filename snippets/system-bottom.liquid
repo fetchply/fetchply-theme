@@ -70,7 +70,6 @@
 <script src="{{ 'currencies.js' | shopify_asset_url }}" defer></script>
 <script type="module" src="{{ 'hdt-currencies.js' | asset_url }}"></script>
 {%- endif -%}
-{%- if request.design_mode -%}{%- render 'var_adm' -%}{% endif -%}
 {%- unless template.name == "password" -%}
 {%- comment -%} begin popover currencies {%- endcomment -%}
 {%- liquid

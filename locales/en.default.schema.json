@@ -11,105 +11,6 @@
   "default": "Default",
   "none": "None",
   "settings_schema": {
-    "theme_active": {
-      "name": "Theme active",
-      "settings": {
-        "intro": {
-          "content": "Start your business journey with Ecomus"
-        },
-        "purchase_code": {
-          "label": "Purchase code"
-        },
-        "purchase_code_help": {
-          "content": "[Where is my purchase code](https://support.the4.co/articles/where-is-my-purchase-code#how-to-find-your-purchase-code)"
-        },
-        "import_demo_help": {
-          "content": "[How to import demo with one click](https://support.the4.co/articles/import-demo#1-one-click-demo-import-with-ecomrise)"
-        },
-        "buy_license": {
-          "content": "[Buy a new license](https:\/\/1.envato.market\/Y9mvDR)"
-        },
-        "ecomposer": {
-          "content": "[Get EComposer Page Builder for Free (only The4 users)](https://ecomposer.app/referral?ref=The4)"
-        },
-        "update_help": {
-          "content": "[How to update with in 3 minutes](https://support.the4.co/articles/update-the-theme)"
-        },
-        "workflow_info": {
-          "content": "Use Ecomus and explore all the tools and services you need to start, run, and grow your business. We know that Ecomus will make your life easier by improving your workflow. With the tools that Ecomus gives you, you will realize your true design potential without the need to know any coding. We would be glad if you help us to improve our theme, installation process or documentation."
-        }
-      }
-    },
-    "dear_customers": {
-      "name": "Dear customers!",
-      "settings": {
-        "intro": {
-          "content": "[The4 Studio's](https://the4.co/) experienced team designs impressive Shopify themes that are easy to install and customize. Start your website quickly with our dedicated support."
-        },
-        "documentation": {
-          "content": "For installation help, check our [documentation](https://support.the4.co/collections/ecomus-2) or open a [support ticket](https://support.the4.co/login). We love improving our themes, so please share any technical issues or suggestions. Thanks for being a customer!"
-        },
-        "offers": {
-          "content": "Enjoy exclusive offers from our growing network of partners! See the list of [offers here](https://support.the4.co/user/earnings) (need login to our support system)."
-        },
-        "contact": {
-          "content": "For expert custom development at an affordable cost, [contact The4](https://the4.co/pages/contact-us)."
-        }
-      }
-    },
-    "recommend_apps": {
-      "name": "Recommend Apps",
-      "settings": {
-        "page_builder_header": {
-          "content": "Page Builder"
-        },
-        "ecomposer": {
-          "content": "[EComposer - 6 Months FREE for The4 users ](https://apps.shopify.com/ecomposer?utm_source=the4-customize&utm_medium=recommend)[(learn more)](https://ecomposer.io/pages/theme-partners )"
-        },
-        "seo_header": {
-          "content": "SEO"
-        },
-        "seo_apps": {
-          "content": "[AVADA SEO](https://apps.shopify.com/avada-seo-suite?utm_source=The4&utm_medium=inapp&utm_campaign=partnership), [SearchPie](https://partners.secomapp.com/apps/searchpie/EcomElite), [SEO Ant](https://share.channelwill.com/app/1165e92fbeba994PdM), [TinyIMG](https://tiny-img.com/?ref=henry)"
-        },
-        "reviews_header": {
-          "content": "Product Reviews"
-        },
-        "reviews_apps": {
-          "content": "[Ryviu](https://www.ryviu.com/?rel=3in5hrqs), [Loox](https://loox.io/app/The4), [Growave](https://www.growave.io/r?ref=henry_pham), [LAI](https://apps.shopify.com/lai-reviews), [Stamped.io](https://get.stamped.io/m8cdram862h3), [Trustoo](https://share.channelwill.com/app/2165e92fbebcb27Ava), [Fera](https://www.fera.ai?r=ecomelite)"
-        },
-        "marketing_header": {
-          "content": "Marketing & Upsell"
-        },
-        "marketing_apps": {
-          "content": "[EcomRise](https://apps.shopify.com/ecomrise?utm_source=the4-ecomus&utm_medium=intheme&utm_content=recommend-apps), [Vitals](https://vitals.co/shopify/10250920), [Selleasy](https://platform.shoffi.app/r/rl_51tG2Zjt), [Candy Rack](https://app.partnerjam.com/install?key=04a19cd7-9ab0-4637-adf0-8bd14e743c80), [Kaching Bundles ](https://apps.shopify.com/bundle-deals?utm_medium=theme-setting&utm_source=the4-intheme&utm_content=recommend-app)"
-        },
-        "ux_header": {
-          "content": "UX, UI"
-        },
-        "ux_apps": {
-          "content": "[Boost Commerce](https://boostcommerce.net?utm_source=henry64), [SoBooster](https://usf.sobooster.com/affiliate?refcode=48865bfb-10b0-46cc-9239-6af710fb69a7&targeturl=https%3a%2f%2fapps.shopify.com%2fultimate-search-and-filter-1), [Weglot](https://weglot.com/?fp_ref=khang-25), [HeyCarson](https://heycarson.com/ambassadors/?ref=the4studio)"
-        },
-        "orders_header": {
-          "content": "Manage Orders"
-        },
-        "orders_apps": {
-          "content": "[Parcel Pannel](https://parcelpanel.com?ref=79QXxUbs), [Dropshipman](https://api-affiliate.dropshipman.com/?ref=dc45f331), [Track123 ](https://platform.shoffi.app/r/rl_97IoZnVP), [Appstle Subscription](https://subscription-admin.appstle.com/affiliates?fpr=henry46)"
-        },
-        "affiliate_header": {
-          "content": "Affiliate & Loyalty"
-        },
-        "affiliate_apps": {
-          "content": "[UpPromote](https://partners.secomapp.com/apps/affiliate/EcomElite), [Referral candy](https://my.referralcandy.com/signup?utm_source=first_promoter&utm_medium=first_promoter&utm_campaign=affiliate_program&ref=henry84), [BON Loyalty](https://partners.smartifyapps.com/apps/bon_loyalty/the4), [Growave](https://www.growave.io/r?ref=henry_pham)"
-        },
-        "currency_header": {
-          "content": "Currency & Translation"
-        },
-        "currency_apps": {
-          "content": "[Transcy: Localization Solution](https://bit.ly/4ilgzmw), [Langwill: Language Translate](https://partner.channelwill.com/oou3vu)"
-        }
-      }
-    },
     "global": {
       "settings": {
         "header__border": {
@@ -459,7 +360,7 @@
             "label": "Wishlist mode",
             "options__1": "Disable",
             "options__2": "Enable wishlist local",
-            "options__3": "Enable wishlist account [Install EcomRise free](https:\/\/apps.shopify.com\/ecomrise?utm_source=ecomus-intheme&utm_medium=wishlist&compare)"
+            "options__3": "Enable wishlist account (requires the EcomRise app)"
           },
           "wis_atc_added": {
             "label": "Action when people click added wishlist:",
@@ -474,7 +375,7 @@
             "info": "Max products compare: 6",
             "options__1": "Disable",
             "options__2": "Enable compare local",
-            "options__3": "Enable compare account [Install EcomRise free](https:\/\/apps.shopify.com\/ecomrise?utm_source=ecomus-intheme&utm_medium=compare&compare)"
+            "options__3": "Enable compare account (requires the EcomRise app)"
           },
           "enable_compare_popup": {
             "label": "Enable compare popup",
@@ -488,11 +389,11 @@
           },
           "use_url_collection_vendor": {
             "label": "Use collection link on vendor",
-            "info": "Replace vendor link to collection link. Requires exist a collection has the name same as the vendor of the product. [Learn more](https://support.the4.co/articles/how-to-use-the-collection-link-on-vendortype)"
+            "info": "Replace vendor link to collection link. Requires exist a collection has the name same as the vendor of the product. [Learn more](https://support.fetchply.co/articles/how-to-use-the-collection-link-on-vendortype)"
           },
           "use_url_collection_type": {
             "label": "Use collection link on type",
-            "info": "Replace type link to collection link. Requires exist a collection has the name same as the type of the product. [Learn more](https://support.the4.co/articles/how-to-use-the-collection-link-on-vendortype)"
+            "info": "Replace type link to collection link. Requires exist a collection has the name same as the type of the product. [Learn more](https://support.fetchply.co/articles/how-to-use-the-collection-link-on-vendortype)"
           }
         }
       }
@@ -676,7 +577,7 @@
             "label": "Shopify"
           },
           "options__2": {
-            "label": "The4"
+            "label": "Fetchply"
           }
         },
         "flag_currency": {
@@ -692,14 +593,14 @@
           }
         },
         "header_currency_by_t4s": {
-          "content": "Multiple Currencies By The4"
+          "content": "Multiple Currencies By Fetchply"
         },
         "auto_currency": {
           "label": "Enable Customer Geolocation",
           "info": " Boost up your sales by showing your prices in the Visitor's Currency! When a customer goes to your store, your store chooses the currency to use based on the geolocation of their IP address. The prices in your storefront and checkout convert immediately to that currency. If a customer's location uses a currency that isn't supported by your store, then the store's currency is used. For example, your store currency is USD and you accept USD, EUR, and YEN. When a customer from Brazil visits your store, they see prices in USD (your store's currency) because you don't accept payments in BRL."
         },
         "paragraph2": "Even though prices are displayed in different currencies, orders will still be processed in your store's currency.",
-        "paragraph3": "To offer multiple currencies on your online store, you must first [edit your store's currency formatting](https:\/\/support.the4.co\/articles\/kalles5-currency-format).",
+        "paragraph3": "To offer multiple currencies on your online store, you must first [edit your store's currency formatting](https:\/\/support.fetchply.co\/articles\/kalles5-currency-format).",
         "supported_currencies": {
           "label": "Supported currencies",
           "info": "Use the country's ISO [currency code](http:\/\/www.xe.com\/iso4217.php). Rule: Currency code - Currency Name. Each rule must be in its own line."
@@ -1058,10 +959,6 @@
           "info": "Not applicable for product sold out."
         }
       }
-    },
-    "import_demo": {
-      "name": "Import demo",
-      "content": "[Install EcomRise (Free)](https:\/\/apps.shopify.com\/ecomrise?utm_source=the4-ecomus&utm_medium=intheme&utm_content=import-demo) to import new demos and update the latest theme version quickly. Plus, access to all boost sales features. [Install app now.](https:\/\/apps.shopify.com\/ecomrise?utm_source=the4-ecomus&utm_medium=intheme&utm_content=import-demo)"
     }
   },
   "sections": {
@@ -2713,7 +2610,7 @@
         },
         "acc": {
           "label": "Instagram Access Token via GraphQL API",
-          "info": "[How to get your Instagram Access Token via GraphQL API.](https:\/\/support.the4.co\/articles\/how-to-get-instagram-access-token)"
+          "info": "[How to get your Instagram Access Token via GraphQL API.](https:\/\/support.fetchply.co\/articles\/how-to-get-instagram-access-token)"
         },
         "limit": {
           "label": "Maximum photos to show"
@@ -5879,7 +5776,7 @@
           "settings": {
             "text": {
               "label": "Text",
-              "info": "If you want to highlight text, please add '[]' tag in the text. Ex: [Ecomus]"
+              "info": "If you want to highlight text, please add '[]' tag in the text. Ex: [Fetchply]"
             },
             "icon_svg": {
               "label": "Select icon"

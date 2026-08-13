@@ -13,7 +13,7 @@
 
   # shipping protection
   assign protect_product = settings.protect_product
-  assign protect_product_id = protect_product.selected_or_first_available_variant.id | default: protect_product.variants.first.id | default: protect_product.id | default: "Ecomus-2" 
+  assign protect_product_id = protect_product.selected_or_first_available_variant.id | default: protect_product.variants.first.id | default: protect_product.id | default: "Fetchply-2" 
   assign has_protect_product = 0
   assign cart_items = cart.items
   if protect_product_id != blank and settings.enable_shipping_protection
