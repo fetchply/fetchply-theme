@@ -8,44 +8,6 @@
     "theme_support_url": "https:\/\/support.the4.co\/"
   },
   {
-    "name": "t:settings_schema.theme_active.name",
-    "settings": [ 
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.theme_active.settings.intro.content"
-      },
-      {
-        "type": "text",
-        "id": "purchase_code",
-        "label": "t:settings_schema.theme_active.settings.purchase_code.label"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.theme_active.settings.purchase_code_help.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.theme_active.settings.import_demo_help.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.theme_active.settings.buy_license.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.theme_active.settings.ecomposer.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.theme_active.settings.update_help.content"
-      },
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.theme_active.settings.workflow_info.content"
-      }
-    ]
-  },
-  {
     "name": "t:settings_schema.dear_customers.name",
     "settings": [
       {
