@@ -100,7 +100,7 @@
                 "heading_XVWBm3": {
                   "type": "heading",
                   "settings": {
-                    "heading": "<h2>We are Ecomus</h2>",
+                    "heading": "<h2>We are Fetchply</h2>",
                     "hidden_br_mobile": false,
                     "hidden_on_mobile": false,
                     "heading_size": "h3",
@@ -266,7 +266,7 @@
                 "text_gbApkr": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Ecomus was founded in 1995 by Jane Smith, a fashion lover with a<br/> passion for timeless style. Jane had always been drawn to classic<br/> pieces that could be worn season after season, and she believed that <br/>there was a gap in the market for a store that focused solely on classic <br/>women's clothing. She opened the first store in a small town in New <br/>England, where it quickly became a local favorite.</p>",
+                    "text": "<p>Fetchply was founded in 1995 by Jane Smith, a fashion lover with a<br/> passion for timeless style. Jane had always been drawn to classic<br/> pieces that could be worn season after season, and she believed that <br/>there was a gap in the market for a store that focused solely on classic <br/>women's clothing. She opened the first store in a small town in New <br/>England, where it quickly became a local favorite.</p>",
                     "hidden_br_mobile": true,
                     "hidden_on_mobile": false,
                     "text_size": "base",

@@ -3,7 +3,7 @@
     assign product = section.settings.product
   endunless
   if product == null
-    assign product = null | default: title: "Example product title", price: 1999, compare_at_price: 2500, available: true, vendor: "Ecomus"
+    assign product = null | default: title: "Example product title", price: 1999, compare_at_price: 2500, available: true, vendor: "Fetchply"
   endif
   assign product_form_id = 'product-form-' | append: section.id | append: product.id 
   assign effect = ''

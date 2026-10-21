@@ -11,7 +11,7 @@ var $wishlist_list = $id4('hdt_wishlist_list'),
   $compare_list = $id4('hdt_compare_list'),
   nameCachedWishlist = 'theme4:wishlist:id',
   nameCachedCompare = 'theme4:compare:id';
-// if exit $wishlist_list is use app wishlist the4
+// if exit $wishlist_list is use app wishlist fetchply
 if ($wishlist_list) {
   var arr_wishlist_list = $wishlist_list.textContent ? $wishlist_list.textContent.split(' ') : [];
 }
@@ -165,7 +165,7 @@ update_wis_btns_fn = function (_action) {
   // Update Count and link
   document.dispatchEvent(new CustomEvent(`theme4:${this.textFn}:update`, {
     bubbles: true,
-    detail: 'the4'  // arr_wishlist_list
+    detail: 'fetchply'  // arr_wishlist_list
   }));
   if ((window.isPageWishlist)) themeHDN.wisHref = conver_to_link_fn('wishlist', arr_wishlist_list);
 };
@@ -372,7 +372,7 @@ clear_all_fn = function () {
   // Update Count and link
   document.dispatchEvent(new CustomEvent(`theme4:${this.ofFn}:update`, {
     bubbles: true,
-    detail: 'the4'
+    detail: 'fetchply'
   }));
   this.array = [];
   $id4(`drawerCompare`)?.closest('hdt-drawer')?.close();
@@ -1297,7 +1297,7 @@ customElements.define('cart-countdown', cartCountdown);
 const contactForm = $$4('form[action^="/contact"]');
 contactForm.forEach(function(form) {
   form.addEventListener("submit", function(event){
-    sessionStorage.setItem("the4:recentform", this.getAttribute("id"));
+    sessionStorage.setItem("fetchply:recentform", this.getAttribute("id"));
   })
 });
 const goToForm = (id) => {
@@ -1309,10 +1309,10 @@ const goToForm = (id) => {
     buttonForm.scrollIntoView({ behavior: 'smooth' });
   }
 }
-var recentform = sessionStorage.getItem("the4:recentform") || "";
+var recentform = sessionStorage.getItem("fetchply:recentform") || "";
 
 if (location.href.indexOf('contact_posted=true') > 0 && recentform !== "" ) {
-  document.dispatchEvent( new CustomEvent('the4:recentform', { detail: { recentform: recentform }, bubbles: true, cancelable: true }) );
+  document.dispatchEvent( new CustomEvent('fetchply:recentform', { detail: { recentform: recentform }, bubbles: true, cancelable: true }) );
   $id4(recentform)?.classList.add("on-live");
   if ($4('.form-status-mirror-'+ recentform)) {
     $4('.form-status-mirror-'+ recentform).style.cssText = "display: block;";
@@ -1321,18 +1321,18 @@ if (location.href.indexOf('contact_posted=true') > 0 && recentform !== "" ) {
 }
 
 else if (location.href.indexOf('customer_posted=true') > 0 && recentform !== "" ) {
-  document.addEventListener('the4:recentform', (event)=>{
+  document.addEventListener('fetchply:recentform', (event)=>{
     let modal_id = document.getElementById(event.detail.recentform).getAttribute('data-id') || document.getElementById(event.detail.recentform).getAttribute('id');
     document.getElementById(modal_id)?.closest("hdt-modal:not([closed])")?.open();
   })
-  document.dispatchEvent( new CustomEvent('the4:recentform', { detail: { recentform: recentform }, bubbles: true, cancelable: true }) );
+  document.dispatchEvent( new CustomEvent('fetchply:recentform', { detail: { recentform: recentform }, bubbles: true, cancelable: true }) );
   $id4(recentform)?.classList.add("on-live");
   goToForm(recentform);
 }
 else if (location.href.indexOf('contact_posted=true') > 0 && location.href.indexOf('#') > 0 ) {
   var recentform = location.href.split("#")[1];
   if ($id4(recentform).length > 0) {
-    sessionStorage.setItem("the4:recentform", recentform);
+    sessionStorage.setItem("fetchply:recentform", recentform);
     $id4(recentform).classList.add("on-live");
     if ($4('.form-status-mirror-'+ recentform)) {
       $4('.form-status-mirror-'+ recentform).style.cssText = "display: block;";
@@ -1426,12 +1426,12 @@ class multiBrands extends HTMLElement {
           } else {
             $4(`#hdt-nav-ul-mb summary[data-url="${this.url}"]`)?.parentElement.setAttribute("open","");
           }
-          // localStorage.setItem("the4:brand:url", this.url);
+          // localStorage.setItem("fetchply:brand:url", this.url);
           break;
         }
       }
       // if(this.url === "") {
-      //   this.url = localStorage.getItem("the4:brand:url") || Shopify.routes.root;
+      //   this.url = localStorage.getItem("fetchply:brand:url") || Shopify.routes.root;
       //   for(var i=0; i < this.item.length; i++) {
       //     if (this.item[i].getAttribute("href") === this.url) {
       //       this.item[i].parentElement.classList.add("is--active");
@@ -1446,7 +1446,7 @@ class multiBrands extends HTMLElement {
     }
   }
   // _init(){
-  //   var nameStorage = "the4:brand:nav" + this.url.replace(/\//g,'-');
+  //   var nameStorage = "fetchply:brand:nav" + this.url.replace(/\//g,'-');
   //   if(!Shopify.designMode && sessionStorage.getItem(nameStorage) !== null){
   //     $id4("hdt-nav-ul").innerHTML = sessionStorage.getItem(nameStorage);
   //     $id4("hdt-nav-ul").classList.remove("hdt-nav-loading");
@@ -2183,6 +2183,7 @@ class countryFilter extends HTMLElement {
 }
 
 customElements.define('country-filter', countryFilter);
+
 
 
 // readmore collection description
